@@ -266,3 +266,31 @@ label{
       font-size: 18px ;
     color:rgba(179, 179, 179, 1);
 }
+/* footer section */
+
+.footer-logo{
+    font-size:50px ;
+    font-weight:bold ;
+    color:rgba(78, 71, 255, 1);
+    margin:0px;
+    
+}
+.footer-text .foot-col{
+    font-size:16px;
+    font-weight: 500px;
+    font-weight:lighter ;
+    color: rgba(96, 96, 100, 0.118);
+}
+.footer-last{
+    display: flex;
+    flex-direction: row;
+    gap: 48px;
+}
+footer{
+    display: flex;
+    flex-direction:column;
+    gap:40px;
+    justify-content: center;
+    align-items: center;
+    padding:150px;
+}
