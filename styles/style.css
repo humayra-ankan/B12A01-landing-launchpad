@@ -304,3 +304,14 @@ footer{
 .foot-col a {
     text-decoration: none;
 }
+
+.anim-btn{ 
+     cursor: pointer;
+  transition: transform 0.2s ease, background-color 0.3s ease;
+    
+}
+.anim-btn:hover {
+  transform: scale(1.15); 
+  background-color:rgb(45, 213, 101)
+}
+
