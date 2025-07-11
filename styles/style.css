@@ -161,33 +161,40 @@ nav{
     display: flex;
     flex-direction: column;
     align-content: center;
+    gap: 15px;
     margin-right: 200px;
-    
-
     
 }
 
 input { 
-    height:70px ;
+    height:60px ;
     width:400px;
     border-radius: 10px;
-    display:block;
+    display:flex;
+    flex-direction: column;
     margin-bottom: 20px;
-    font-size: 1.5em;
+    border: 1px solid #ddd;
   
 }
-textarea{
-    height:70px ;
+  
+
+.txt-area{
+    height:100px ;
     width:400px;
     border-radius: 10px;
     display:block;
     margin-bottom: 20px;
-    font-size: 1.2em;
+    border: 1px solid #ddd;
+    
+   
+    
 }
 textarea::placeholder {
     padding-top: 15px;
-  font-size: 1.5rem; 
-  color: #888;       
+    color: #888; 
+    font-size: 12px;
+     
+       
 }
 label{
     font-size: 12px;
@@ -293,4 +300,7 @@ footer{
     justify-content: center;
     align-items: center;
     padding:150px;
+}
+.foot-col a {
+    text-decoration: none;
 }
