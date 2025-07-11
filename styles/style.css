@@ -14,12 +14,13 @@
     color: white;
 }
 
-}
+
 /* 1st section- hero section */
 .sec-1{
     height:700px;
     width: 1500px;
     background-image: url("../Assets/Hero-bg.png");
+
 
 }
 .logo{
@@ -134,16 +135,15 @@ nav{
    
 
 }
-/* section#4 form-section */
-.sec-4{
-   
+/* section#5 form-section */
+.sec-5{
+    background-color: rgba(78, 71, 255, 0.1);
+    margin-top: 250px;
+    padding-top: 120px;
+    padding-bottom: 180px;
     display: flex;
     justify-content:center;
-    align-items: center;
-   
-  
- 
-    
+    align-items: center; 
 }
 
 
@@ -157,7 +157,7 @@ nav{
     margin-left: 200px;
 }
 .form{
-   width:50%;
+   /* width:70%; */
     display: flex;
     flex-direction: column;
     align-content: center;
@@ -173,7 +173,8 @@ input {
     border-radius: 10px;
     display:block;
     margin-bottom: 20px;
-    
+    font-size: 1.5em;
+  
 }
 textarea{
     height:70px ;
@@ -181,6 +182,12 @@ textarea{
     border-radius: 10px;
     display:block;
     margin-bottom: 20px;
+    font-size: 1.2em;
+}
+textarea::placeholder {
+    padding-top: 15px;
+  font-size: 1.5rem; 
+  color: #888;       
 }
 label{
     font-size: 12px;
@@ -195,4 +202,67 @@ label{
     color:white;
     font-weight:bold;
     font-size: 20px;
+}
+/* section#4 users say */
+
+.sec-4-title{
+    font-size: 42px;
+    font-weight: bold;
+    margin: 0px 520px;
+}
+
+.card-hold{ width: 1140px;
+    height: 243px;
+    display: flex;
+    flex-direction: row;
+    gap: 30px;
+    margin: 50px 150px 0px;
+   
+}
+
+.card{ display: flex;
+    flex-direction: column;
+    gap: 24px;
+    padding: 48px 48px;
+    width: 360px;
+    height: 265px;
+    border-radius:14px;
+    background-color: rgb(244, 245, 246); 
+    
+}
+.avatar{
+    display:flex;
+    flex-direction:block;
+    flex-direction: column;
+}
+.cardsec-3{
+    display: flex;
+    gap: 12px;
+ 
+    
+}
+.avt-img{
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+}
+.ele-title{
+    font-size: 24px ;
+    font-weight:bold;
+    padding-bottom:10px;
+}
+.ele-subtitle{
+    font-size: 24px ;
+    color: rgba(30, 30, 30, 1)
+    
+}
+.avatar-name{
+      font-size: 18px ;
+      font-weight: bold;
+    color: rgba(117, 117, 117, 1);
+
+}
+.avatar-date{
+      font-size: 18px ;
+    color:rgba(179, 179, 179, 1);
 }
